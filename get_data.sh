@@ -10,7 +10,8 @@ if kaggle datasets download -d sgonkaggle/youtube-trend-with-subscriber && unzip
     head -n +1089 data_shuf > data_train
     echo "Shuffled dataset"
     wc -l data_shuf
-    echo "Test dataset"    wc -l data_test
+    echo "Test dataset"
+    wc -l data_test
     echo "Dev dataset"
     wc -l data_dev
     echo "Train dataset"
